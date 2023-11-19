@@ -13,11 +13,15 @@ Technologies Used
  
 
 ## How to View
-1. Clone the repository to your local machine.
+1.
+ 1.1. Clone the repository to your local machine.
 ```bash
 git clone https://github.com/AbdelhakDouiba/YouTube-HTML-CSS-Clone.git
 ```
-2. Open the index.html file in a web browser to view the YouTube clone.
+ 1.2. Open the index.html file in a web browser to view the YouTube clone.
+
+2.
+  Online version hosted on GitHub: [ClickHere](https://abdelhakdouiba.github.io/YouTube-HTML-CSS-Clone/youtube/index.html)
 
 
 ## Contributing
