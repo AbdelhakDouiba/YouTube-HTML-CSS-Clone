@@ -2,7 +2,7 @@
 ## Overview
 This GitHub repository hosts a simple clone of the [www.youtube.com](www.youtube.com) website created as a practice project. The project focuses on replicating the visual layout and styling of the YouTube homepage using HTML and CSS.
 
-# Features
+## Features
 - Responsive design to ensure compatibility across various screen sizes.
 Mimics the main layout and components of the YouTube homepage, including the header, search bar, recommended videos grid, and footer.
 - Utilizes Flexbox and Grid layout for efficient and flexible page structure.
@@ -12,7 +12,7 @@ Technologies Used
 - Flexbox and Grid Layout: CSS features for creating responsive and dynamic layouts.
  
 
-# How to View
+## How to View
 1. Clone the repository to your local machine.
 ```bash
 git clone https://github.com/AbdelhakDouiba/YouTube-HTML-CSS-Clone.git
