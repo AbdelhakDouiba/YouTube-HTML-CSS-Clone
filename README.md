@@ -1,6 +1,6 @@
 # YouTube Clone
 ## Overview
-This GitHub repository hosts a simple clone of the [www.youtube.com](www.youtube.com) website created as a practice project. The project focuses on replicating the visual layout and styling of the YouTube homepage using HTML and CSS.
+This GitHub repository hosts a simple clone of the [www.youtube.com](https://www.youtube.com) website created as a practice project. The project focuses on replicating the visual layout and styling of the YouTube homepage using HTML and CSS.
 
 ## Features
 - Responsive design to ensure compatibility across various screen sizes.
