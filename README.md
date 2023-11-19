@@ -14,21 +14,21 @@ Technologies Used
 
 ## How to View
 1.
- 1.1. Clone the repository to your local machine.
+ - 1.1. Clone the repository to your local machine.
 ```bash
 git clone https://github.com/AbdelhakDouiba/YouTube-HTML-CSS-Clone.git
 ```
- 1.2. Open the index.html file in a web browser to view the YouTube clone.
+ - 1.2. Open the index.html file in a web browser to view the YouTube clone.
 
 2.
-  Online version hosted on GitHub: [ClickHere](https://abdelhakdouiba.github.io/YouTube-HTML-CSS-Clone/youtube/index.html)
+ - Online version hosted on GitHub: [ClickHere](https://abdelhakdouiba.github.io/YouTube-HTML-CSS-Clone/youtube/index.html)
 
 
 ## Contributing
 Contributions are welcome! Feel free to open issues, provide feedback, or submit pull requests to enhance the project.
 
 ## License
-This project is licensed under the MIT License, allowing for free use and modification.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), allowing for free use and modification.
 
 ## Author
 Abdelhak Douiba
