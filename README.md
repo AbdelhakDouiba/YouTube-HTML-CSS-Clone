@@ -18,7 +18,7 @@ Technologies Used
 git clone https://github.com/AbdelhakDouiba/YouTube-HTML-CSS-Clone.git
 ```
  - 1.2. Open the index.html file in a web browser to view the YouTube clone.
- - 
+   
  - 2. Online version hosted on GitHub: [ClickHere](https://abdelhakdouiba.github.io/YouTube-HTML-CSS-Clone/youtube/index.html)
 
 
