@@ -1,0 +1,74 @@
+nav{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 23px;
+    position: fixed;
+    top: 56px;
+    left: 72px;
+    right: 0;
+    height: 56px;
+    z-index: 50;
+}
+
+.nav-button-div{
+    margin-right: 12px;
+}
+.nav-button-selected{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7.7px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav-button{
+    background-color: rgba(0, 0, 0, 0.05);
+    color: black;
+    border: none;
+    padding: 7.7px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.next-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: end;
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding-right: 10px;
+    background-color: white;
+    box-shadow: -20px 0px 14px  rgba(255, 255, 255, 0.9);
+}
+.next-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    width: 35px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 150ms;
+    padding-left: 10px;
+}
+.next-img{
+    height: 13px;
+    width: 13px;
+}
+
+.next-button:hover, .nav-button:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,755 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>YouTube</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Abdelhak Douiba">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="content.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="sidebar.css">
+        <link rel="stylesheet" type="text/css" href="general.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./icons/favicon_144x144.png" sizes="144x144">
+        <link rel="icon" href="./icons/favicon_96x96.png" sizes="96x96">
+        <link rel="icon" href="./icons/favicon_48x48.png" sizes="48x48">
+        <link rel="icon" href="./icons/favicon_32x32.png" sizes="32x32">
+    </head>
+    <body>
+        <header>
+            <div class="logo-section">
+                <button class="hamburger-menu-button">
+                    <img class="hamburger-menu" src="./header/hamburger-menu.svg">
+                </button>
+                <img class="youtube-logo" src="./header/youtube-logo.svg">
+            </div>
+            <div class="search-section">
+                <div class="search-bar-div">
+                    <input class="search-bar" type="text" placeholder="Search">
+                </div>
+                <div class="search-button-div">
+                    <button class="search-button"><img class="search-img" src="./header/search.svg" alt="search"></button>
+                    <div class="tooltip">
+                        <p>Search</p>
+                    </div>
+                </div>
+                <div class="voice-button-div">
+                    <button class="voice-button"><img class="voice-img" src="./header/voice-search-icon.svg" alt="voice"></button>
+                    <div class="tooltip">
+                        <p>Search with your voice</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-section">
+                <div class="upload-button-div">
+                    <button class="upload-button">
+                        <img class="upload-img" src="./header/upload.svg" alt="upload">
+                    </button>
+                    <div class="tooltip">
+                        <p>Create</p>
+                    </div>
+                </div>
+                <div class="notifications-button-div">
+                    <button class="notifications-button">
+                        <div class="notif-number">
+                            <p class="notif-number-text">3</p>
+                        </div>
+                        <img class="notifications-img" src="./header/notifications.svg" alt="notifications">
+                    </button>
+                    <div class="tooltip">
+                        <p>Notifications</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="current-user-profile-img" src="./channel-profile/profile.jpg" alt="profile">
+                </div>
+            </div>
+        </header>
+        <aside>
+            <div class="sidebar-box">
+                <div class="img-div-sidebar">
+                    <img class="img-sidebar" src="./sidebar/home.svg" alt="home">
+                </div>
+                <div class="img-description-div-sidebar" title="Home" id="selected-sidebar">
+                    <p class="img-description-text-sidebar">Home</p>
+                </div>
+            </div>
+            <div class="sidebar-box">
+                <div class="img-div-sidebar">
+                    <img class="img-sidebar" src="./sidebar/shorts2.svg" alt="Shorts">
+                </div>
+                <div class="img-description-div-sidebar" title="Shorts">
+                    <p class="img-description-text-sidebar">Shorts</p>
+                </div>
+            </div>
+            <div class="sidebar-box">
+                <div class="img-div-sidebar">
+                    <img class="img-sidebar" src="./sidebar/subscriptions.svg" alt="subscriptions">
+                </div>
+                <div class="img-description-div-sidebar" title="Subscriptions">
+                    <p class="img-description-text-sidebar">Subscriptions</p>
+                </div>
+            </div>
+            <div class="sidebar-box">
+                <div class="img-div-sidebar">
+                    <img class="img-sidebar" src="./sidebar/you.svg" alt="library">
+                </div>
+                <div class="img-description-div-sidebar" title="You">
+                    <p class="img-description-text-sidebar">You</p>
+                </div>
+            </div>
+        </aside>
+        <nav>
+            <div class="nav-button-div" title="All">
+                <button class="nav-button-selected">All</button>
+            </div>
+            <div class="nav-button-div" title="Mixes">
+                <button class="nav-button">Mixes</button>
+            </div>
+            <div class="nav-button-div" title="Music">
+                <button class="nav-button">Music</button>
+            </div>
+            <div class="nav-button-div" title="Podcasts">
+                <button class="nav-button">Podcasts</button>
+            </div>
+            <div class="nav-button-div" title="Live">
+                <button class="nav-button">Live</button>
+            </div>
+            <div class="nav-button-div" title="Music">
+                <button class="nav-button">Music</button>
+            </div>
+            <div class="nav-button-div" title="Courses">
+                <button class="nav-button">Courses</button>
+            </div>
+            <div class="nav-button-div" title="HTML">
+                <button class="nav-button">HTML</button>
+            </div>
+            <div class="nav-button-div" title="CSS">
+                <button class="nav-button">CSS</button>
+            </div>
+            <div class="nav-button-div" title="Thoughts">
+                <button class="nav-button">Thoughts</button>
+            </div>
+            <div class="nav-button-div" title="Playlists">
+                <button class="nav-button">Playlists</button>
+            </div>
+            <div class="nav-button-div" title="Watched">
+                <button class="nav-button">Watched</button>
+            </div>
+            <div class="nav-button-div" title="New to you">
+                <button class="nav-button">New to you</button>
+            </div>
+            <div class="next-item"> 
+                <button class="next-button">
+                    <img class="next-img" src="./sidebar/next.svg" alt="next">
+                </button>
+            </div>
+        </nav>
+        <main>
+                <section class="videos-grid">
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=DPqiIzK97K0">
+                                <div class="video-time">
+                                    <p class="video-time-text">10:28:55</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=DPqiIzK97K0">
+                                <img class="thumbnail-img" src="thumb/thumbnail-1.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@freecodecamp">
+                                    <img class="channel-profile" src="channel-profile/channel-1.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-1.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">freeCodeCamp.org</p>
+                                        <p class="channel-preview-text-2">8.63M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=DPqiIzK97K0" title="Arduino Course for Everybody">
+                                    <p class="video-title">Arduino Course for Everybody</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@freecodecamp" class="author-link">
+                                        <p class="video-author">freeCodeCamp.org</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">freeCodeCamp.org</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=DPqiIzK97K0" title="103k views &#183; 10 days ago">
+                                    <p class="video-info">103k views &#183; 10 days ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                                <div class="video-time">
+                                    <p class="video-time-text">6:31:23</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                                <img class="thumbnail-img" src="thumb/thumbnail-2.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@SuperSimpleDev">
+                                    <img class="channel-profile" src="channel-profile/channel-2.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-2.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">SuperSimpleDev</p>
+                                        <p class="channel-preview-text-2">327K subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" title="HTML & CSS Full Course &dash; Beginner to Pro">
+                                    <p class="video-title">HTML & CSS Full Course &dash; Beginner to Pro</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@SuperSimpleDev" class="author-link">
+                                        <p class="video-author">SuperSimpleDev</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">SuperSimpleDev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" title="7.3M views &#183; 1 year ago">
+                                    <p class="video-info">7.3M views &#183; 1 year ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=zCxtfU4Lu6w">
+                                <div class="video-time">
+                                    <p class="video-time-text">15:33</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=zCxtfU4Lu6w">
+                                <img class="thumbnail-img" src="thumb/thumbnail-3.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@nesoacademy">
+                                    <img class="channel-profile" src="channel-profile/channel-3.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-3.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">Neso Academy</p>
+                                        <p class="channel-preview-text-2">2.33M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=zCxtfU4Lu6w" title="Python Special Programs &dash; Right Pyramid of Stars">
+                                    <p class="video-title">Python Special Programs &dash; Right Pyramid of Stars</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@nesoacademy" class="author-link">
+                                        <p class="video-author">Neso Academy</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">Neso Academy</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=zCxtfU4Lu6w" title="4.8k views &#183; 3 days ago">
+                                    <p class="video-info">4.8k views &#183; 3 days ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=XKHEtdqhLK8">
+                                <div class="video-time">
+                                    <p class="video-time-text">12:00:00</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=XKHEtdqhLK8">
+                                <img class="thumbnail-img" src="thumb/thumbnail-4.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@BroCodez">
+                                    <img class="channel-profile" src="channel-profile/channel-4.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-4.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">Bro Code</p>
+                                        <p class="channel-preview-text-2">1.38M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=XKHEtdqhLK8" title="Python Full Course for free">
+                                    <p class="video-title">Python Full Course for free</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@howtodevv" class="author-link">
+                                        <p class="video-author">Bro Code</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">Bro Code</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=XKHEtdqhLK8" title="13M views &#183; 2years ago">
+                                    <p class="video-info">13M views &#183; 2years ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=QWZPaMZXZCE">
+                                <div class="video-time">
+                                    <p class="video-time-text">8:44</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=QWZPaMZXZCE">
+                                <img class="thumbnail-img" src="thumb/thumbnail-5.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@howtodevv">
+                                    <img class="channel-profile" src="channel-profile/channel-5.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-5.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">How To Dev</p>
+                                        <p class="channel-preview-text-2">1.36K subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=QWZPaMZXZCE" title="Multiple Typing Text Animation Using HTML CSS &amp; JavaScript">
+                                    <p class="video-title">Multiple Typing Text Animation Using HTML CSS &amp; JavaScript</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@howtodevv" class="author-link">
+                                        <p class="video-author">How To Dev</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">How To Dev</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=QWZPaMZXZCE" title="234 views &#183; 2 days ago">
+                                    <p class="video-info">234 views &#183; 2 days ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=0-7IHOXkiV8">
+                                <div class="video-time">
+                                    <p class="video-time-text">3:34</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=0-7IHOXkiV8">
+                                <img class="thumbnail-img" src="thumb/thumbnail-6.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@Kaleoofficial">
+                                    <img class="channel-profile" src="channel-profile/channel-6.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-6.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">KALEO</p>
+                                        <p class="channel-preview-text-2">1.87M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=0-7IHOXkiV8" title="KALEO &minus; Way Down We Go &lpar;Official Music Video&rpar;">
+                                    <p class="video-title">KALEO &minus; Way Down We Go &lpar;Official Music Video&rpar;</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@Kaleoofficial" class="author-link">
+                                        <p class="video-author">KALEO</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">KALEO</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=0-7IHOXkiV8" title="603M views &#183; 7 years ago">
+                                    <p class="video-info">603M views &#183; 7 years ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=-vpOkAkp5Fw">
+                                <div class="video-time">
+                                    <p class="video-time-text">2:48</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=-vpOkAkp5Fw">
+                                <img class="thumbnail-img" src="thumb/thumbnail-7.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@COLORSxSTUDIOS">
+                                    <img class="channel-profile" src="channel-profile/channel-7.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-7.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">COLORS</p>
+                                        <p class="channel-preview-text-2">7M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=-vpOkAkp5Fw" title="Shobee - Power | A COLORS SHOW">
+                                    <p class="video-title">Shobee - Power | A COLORS SHOW</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@COLORSxSTUDIOS" class="author-link">
+                                        <p class="video-author">COLORS</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">COLORS</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=-vpOkAkp5Fw" title="2.2M views &#183; 8 months ago">
+                                    <p class="video-info">2.2M views &#183; 8 months ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=fPO76Jlnz6c">
+                                <div class="video-time">
+                                    <p class="video-time-text">4:16</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=fPO76Jlnz6c">
+                                <img class="thumbnail-img" src="thumb/thumbnail-8.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@TommyBoyRecords">
+                                    <img class="channel-profile" src="channel-profile/channel-8.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-8.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">Tommy Boy</p>
+                                        <p class="channel-preview-text-2">2.71M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=fPO76Jlnz6c" title="Coolio - Gangsta&apos;s Paradise &lpar;feat. L.V.&rpar; &lsqb;Official Music Video&rsqb;">
+                                    <p class="video-title">Coolio - Gangsta&apos;s Paradise &lpar;feat. L.V.&rpar; &lsqb;Official Music Video&rsqb;</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@TommyBoyRecords" class="author-link">
+                                        <p class="video-author">Tommy Boy</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">Tommy Boy</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=fPO76Jlnz6c" title="1.6B views &#183; 6 years ago">
+                                    <p class="video-info">1.6B views &#183; 6 years ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=gOMhN-hfMtY">
+                                <div class="video-time">
+                                    <p class="video-time-text">8:08</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=gOMhN-hfMtY">
+                                <img class="thumbnail-img" src="thumb/thumbnail-9.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@EminemVEVO">
+                                    <img class="channel-profile" src="channel-profile/channel-9.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-9.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">EminemMusic</p>
+                                        <p class="channel-preview-text-2">57.9M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=gOMhN-hfMtY" title="Eminem - Stan &lpar;Long Version&rpar; ft. Dido">
+                                    <p class="video-title">Eminem - Stan &lpar;Long Version&rpar; ft. Dido</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@EminemVEVO" class="author-link">
+                                        <p class="video-author">EminemMusic</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">EminemMusic</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=gOMhN-hfMtY" title="687M views &#183; 13 years ago">
+                                    <p class="video-info">687M views &#183; 13 years ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=TjPFZaMe2yw">
+                                <div class="video-time">
+                                    <p class="video-time-text">5:08</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=TjPFZaMe2yw">
+                                <img class="thumbnail-img" src="thumb/thumbnail-10.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@TEDEd">
+                                    <img class="channel-profile" src="channel-profile/channel-10.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-10.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">TED-Ed</p>
+                                        <p class="channel-preview-text-2">19.2M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=TjPFZaMe2yw" title="3 tips on how to study effectively<">
+                                    <p class="video-title">3 tips on how to study effectively</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@TEDEd" class="author-link">
+                                        <p class="video-author">TED-Ed</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">TED-Ed</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=TjPFZaMe2yw" title="1.4M views &#183; 1 month ago">
+                                    <p class="video-info">1.4M views &#183; 1 month ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=3MqYE2UuN24">
+                                <div class="video-time">
+                                    <p class="video-time-text">2:01</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=3MqYE2UuN24">
+                                <img class="thumbnail-img" src="thumb/thumbnail-11.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@MinutePhysics">
+                                    <img class="channel-profile" src="channel-profile/channel-11.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-11.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">minutephysics</p>
+                                        <p class="channel-preview-text-2">5.7M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=3MqYE2UuN24" title="Is it Better to Walk or Run in the Rain&quest;">
+                                    <p class="video-title">Is it Better to Walk or Run in the Rain&quest;</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@MinutePhysics" class="author-link">
+                                        <p class="video-author">minutephysics</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">minutephysics</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=3MqYE2UuN24" title="19M views &#183; 10 years ago">
+                                    <p class="video-info">19M views &#183; 10 years ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-container-1">
+                        <div class="thumb-row-1">
+                            <a href="https://www.youtube.com/watch?v=1I1vxu5qIUM">
+                                <div class="video-time">
+                                    <p class="video-time-text">21:34</p>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=1I1vxu5qIUM">
+                                <img class="thumbnail-img" src="thumb/thumbnail-12.webp">
+                            </a>
+                        </div>
+                        <div class="thumb-row-2-grid">
+                            <div class="profile-container">
+                                <a href="https://www.youtube.com/@BranchEducation">
+                                    <img class="channel-profile" src="channel-profile/channel-12.jpg">
+                                </a>
+                                <div class="channel-preview">
+                                    <div class="channel-preview-1">
+                                        <img class="channel-profile-preview" src="channel-profile/channel-1.jpg">
+                                    </div>
+                                    <div class="channel-preview-2">
+                                        <p class="channel-preview-text-1">Branch Education</p>
+                                        <p class="channel-preview-text-2">1.39M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <a href="https://www.youtube.com/watch?v=1I1vxu5qIUM" title="How does Bluetooth Work?">
+                                    <p class="video-title">How does Bluetooth Work?</p>
+                                </a>
+                                <div class="author-div">
+                                    <a href="https://www.youtube.com/@BranchEducation" class="author-link">
+                                        <p class="video-author">Branch Education</p>
+                                        <div class="author-preview">
+                                            <p class="author-preview-text">Branch Education</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=1I1vxu5qIUM" title="6.7M views &#183; 2 years ago">
+                                    <p class="video-info">6.7M views &#183; 2 years ago</p>
+                                </a>
+                            </div>
+                            <div class="points-div">
+                                <button class="points-button">
+                                    <img src="./other/points.svg" alt="points">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </main>
+    </body>
+</html>

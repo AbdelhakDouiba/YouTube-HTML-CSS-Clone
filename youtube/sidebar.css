@@ -1,0 +1,101 @@
+@media (max-width: 1200px){
+    aside{
+        background-color: white;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 56px;
+        width: 72px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+        z-index: 60;
+    }
+    
+    .sidebar-box{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 73px;
+        border-radius: 13px;
+        margin-bottom: 1px;
+        cursor: pointer;
+        transition: background-color 150ms;
+    }
+    .sidebar-box:hover{
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    
+    .img-div-sidebar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7px;    
+    }
+    .img-sidebar{
+        height: 24px;
+    }
+    
+    .img-description-text-sidebar{
+        font-size: 10px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200.1px){
+    aside{
+        background-color: white;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 56px;
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 13px;
+        z-index: 60
+    }
+    
+    .sidebar-box{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        width: 220px;
+        height: 39px;
+        border-radius: 13px;
+        margin-bottom: 1px;
+        cursor: pointer;
+        transition: background-color 150ms;
+    }
+    .sidebar-box:hover{
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    
+    .img-div-sidebar{
+        display: flex;
+        align-items: center;
+        margin-left: 14px;
+        margin-right: 24px;
+    }
+    .img-sidebar{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .img-description-text-sidebar{
+        font-size: 14px;
+        margin: 0;
+        padding-bottom: 3px;
+    }
+    #selected-sidebar{
+        font-weight: 500;
+    }
+}

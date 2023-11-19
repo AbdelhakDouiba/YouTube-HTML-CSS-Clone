@@ -1,0 +1,28 @@
+*{
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(15, 15, 15);
+}
+
+@media (max-width: 1200px){   
+    body{
+        margin: 0;
+        padding: 0;
+        padding-top: 132px;
+        padding-left: 92px;
+        padding-right: 22px;
+    }
+}
+
+@media (min-width: 1200.1px){
+    body{
+        margin: 0;
+        padding: 0;
+        padding-top: 132px;
+        padding-left: 240px;
+        padding-right: 22px;
+    }
+}
+
+a{
+    text-decoration: none;
+}
