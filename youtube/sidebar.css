@@ -95,7 +95,7 @@
         margin: 0;
         padding-bottom: 3px;
     }
-    #selected-sidebar{
+    .selected-sidebar{
         font-weight: 500;
     }
 }
