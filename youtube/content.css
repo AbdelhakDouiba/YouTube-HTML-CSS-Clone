@@ -56,7 +56,7 @@ section{
     bottom: 9px;
     right: 5px;
     transition: opacity 150ms;
-    z-index: 10;
+    z-index: 4;
 }
 .video-time-text{
     background-color: rgba(0, 0, 0, 0.8);
